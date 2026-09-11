@@ -11,3 +11,19 @@ Production-ready Highly Available VPC architecture built with Terraform.
 - **Components:** IGW, NAT Gateway, 3 Route Tables
 
 ## Diagram
+## 📸 AWS Console Proof
+
+### VPC Resource Map - 3-Tier Architecture
+![VPC Resource Map](vpc-resource-map.png)
+- 6 Subnets (2 Public, 2 App Private, 2 DB Private) across us-east-1a & 1b
+- 3 Route Tables (public-rt, private-rt)
+- 2 Network Connections (IGW + NAT)
+
+### VPC Details - Live Deployment
+![VPC Details](vpc-details.png)
+- VPC ID: vpc-0*********
+- State: Available 
+- CIDR: 10.0.0.0/16
+- DNS Hostnames: Enabled
+
+Deployed via Terraform from Kali Linux (VirtualBox) in Accra, Ghana 🇬🇭
