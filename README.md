@@ -19,6 +19,9 @@ Production-ready Highly Available VPC architecture built with Terraform.
 - 3 Route Tables (public-rt, private-rt)
 - 2 Network Connections (IGW + NAT)
 
+##VPC Resource Map - 2nd image 
+![vpc Resource map 2](2nd-vpc-map-image)
+
 ### VPC Details - Live Deployment
 ![VPC Details](vpc-details.png)
 - VPC ID: vpc-0*********
