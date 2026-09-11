@@ -20,7 +20,7 @@ Production-ready Highly Available VPC architecture built with Terraform.
 - 2 Network Connections (IGW + NAT)
 
 ##VPC Resource Map - 2nd image 
-![vpc Resource map 2](2nd-vpc-map-image)
+![vpc Resource map 2](2nd-vpc-map-image.png)
 
 ### VPC Details - Live Deployment
 ![VPC Details](vpc-details.png)
